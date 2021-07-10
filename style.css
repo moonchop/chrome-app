@@ -1,9 +1,7 @@
 .hidden{
     display: none;
 }
-*{
-    overflow: hidden;
-}
+
 
 img{
     position: absolute;
