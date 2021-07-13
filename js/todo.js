@@ -14,16 +14,20 @@ function saveToDos(){
 }
 
 function paintToDo(newTodo){ //list를 만들어주는 function
-    /********list*********/
+   
     const li=document.createElement("li");
     const span=document.createElement("span");
-    li.appendChild(span);
-    li.id=newTodo.id;
-    span.innerText=newTodo.text; //새로고침 시 object로 표시되기에 newTodo ->  newTodo.text.
+   
     /********button*********/
     const button=document.createElement("button");
     li.appendChild(button);
     button.innerText="❌";
+
+     /********list*********/
+    li.appendChild(span);
+    li.id=newTodo.id;
+    span.innerText=newTodo.text; //새로고침 시 object로 표시되기에 newTodo ->  newTodo.text.
+    
     /********list&button 합침*********/
     toDoList.appendChild(li);
 

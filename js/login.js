@@ -15,7 +15,7 @@ function onLoginSubmit(e){
     localStorage.setItem(USERNAME_KEY, userName);
     loginForm.classList.add(HIDDEN_CLASSNAME);
     
-    greeting.innerText = `Hello ${userName}`;
+    greeting.innerText = `Hello ${userName}❤`;
     greeting.classList.remove(HIDDEN_CLASSNAME);
 }
 
@@ -24,7 +24,7 @@ if (savedUserName === null) {
   loginForm.addEventListener("submit",onLoginSubmit)
 
 } else {
-    greeting.innerText = `Hello ${savedUserName}`;
+    greeting.innerText = `Hello ${savedUserName}❤`;
     greeting.classList.remove(HIDDEN_CLASSNAME)
   
 }
