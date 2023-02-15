@@ -78,10 +78,11 @@ img{
   
 }
 #greeting{
-    color:whitesmoke;
+    /* color:whitesmoke; */
+    color:white;
     font-size: 50px;
     margin-top: -40px;
-    text-shadow: 3px 3px 20px black;
+    /* text-shadow: 3px 3px 20px black; */
 }
 /****** List ******/
 
@@ -99,9 +100,9 @@ img{
     /* font */
     color: white;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 800;
     text-align: center;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
 }
 #todo-form input::placeholder{
     color:black;
@@ -121,17 +122,18 @@ img{
 }
 #todo-list li span{
     color:white;
-    text-shadow: 3px 3px 8px black;
+    /* text-shadow: 3px 3px 8px black; */
     font-weight:800 ;
 }
 #todo-list li button{
+    
     background: none;
-    border-radius: 10px 10px 10px 10px;
+    /* border-radius: 10px 10px 10px 10px; */
     margin-bottom: 3px;
     margin-right: 10px;
     padding:2px 10px;
-    border-color: gray;
-    border-width: 3px;
+    /* border-color: gray; */
+    /* border-width: 3px; */
     
 }
 /* weather */
